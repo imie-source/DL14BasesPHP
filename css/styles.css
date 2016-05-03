@@ -1,0 +1,11 @@
+body > nav {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+
+body > main {
+  display: inline-block;
+  width: 66%;
+  vertical-align: top;
+}
