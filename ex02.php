@@ -11,7 +11,15 @@
     <main>
       <h3>Exercice 2 :</h3>
       <?php
+        $nb = rand(1, 100);
+        echo "Nombre : $nb <br/>";
 
+        if($nb % 2 === 0){
+          echo "Ce nombre est pair";
+        }
+        else{
+          echo "Ce nombre est impair";
+        }
       ?>
     </main>
     <?php include("footer.html"); ?>
