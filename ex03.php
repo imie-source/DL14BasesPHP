@@ -11,7 +11,7 @@
     <?php include("nav.html"); ?>
     <main>
       <?php
-        showExercise(1);
+        showExercise(3);
       ?>
     </main>
     <?php include("footer.html"); ?>

@@ -1,4 +1,3 @@
-<?php include("functions.php"); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,8 +9,10 @@
     <?php include("header.html"); ?>
     <?php include("nav.html"); ?>
     <main>
+      <h3>Exercice 9 :</h3>
       <?php
-        showExercise(1);
+
+
       ?>
     </main>
     <?php include("footer.html"); ?>

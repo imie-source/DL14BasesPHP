@@ -1,3 +1,4 @@
+<?php include("functions.php"); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,29 +10,8 @@
     <?php include("header.html"); ?>
     <?php include("nav.html"); ?>
     <main>
-      <h3>Exercice 8 :</h3>
       <?php
-        echo "Première boucle (for) : <br/>";
-        for($ii = 0; $ii <= 100; $ii++){
-          echo "$ii <br/>";
-        }
-        echo "Deuxième boucle (while) : <br/>";
-        $ii = 0;
-
-        while($ii <= 100){
-          echo "$ii <br/>";
-          $ii++;
-        }
-
-        echo "Deuxième boucle (do while) : <br/>";
-        $ii = 0;
-
-        do{
-          echo "$ii <br/>";
-          $ii++;          
-        }while($ii <= 100);
-
-
+        showExercise(8);
       ?>
     </main>
     <?php include("footer.html"); ?>

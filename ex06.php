@@ -1,3 +1,4 @@
+<?php include("functions.php"); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,17 +10,8 @@
     <?php include("header.html"); ?>
     <?php include("nav.html"); ?>
     <main>
-      <h3>Exercice 6 :</h3>
       <?php
-        $nb = rand(1,10);
-        $total = 1;
-
-        for($ii = 1; $ii <= $nb; $ii++){
-          $total *= $ii; // $total = $total + $ii;
-        }
-
-        echo "Factorielle $nb : $total";
-
+        showExercise(6);
       ?>
     </main>
     <?php include("footer.html"); ?>

@@ -1,3 +1,4 @@
+<?php include("functions.php") ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,17 +10,8 @@
     <?php include("header.html"); ?>
     <?php include("nav.html"); ?>
     <main>
-      <h3>Exercice 2 :</h3>
       <?php
-        $nb = rand(1, 100);
-        echo "Nombre : $nb <br/>";
-
-        if($nb % 2 === 0){
-          echo "Ce nombre est pair";
-        }
-        else{
-          echo "Ce nombre est impair";
-        }
+        showExercise(2);
       ?>
     </main>
     <?php include("footer.html"); ?>
