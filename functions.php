@@ -48,8 +48,8 @@
       echo "<p>$statements[$id]</p>";
     }
 
-    if(file_exists("stat$id.php")){
-      highlight_file("stat$id.php");
+    if(file_exists("ex" . $id . "stat.php")){
+      highlight_file("ex" . $id . "stat.php");
       echo "<br/>";
     }
   }
