@@ -1,4 +1,12 @@
-<?php include("functions.php"); ?>
+<?php
+  include("functions.php");
+  if(isset($_GET['ex'])){
+    $ex = $_GET['ex'];
+  }
+  else{
+    header('location: index.php');
+  }
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,7 +19,7 @@
     <?php include("nav.html"); ?>
     <main>
       <?php
-        showExercise(1);
+        showExercise($ex);
       ?>
     </main>
     <?php include("footer.html"); ?>

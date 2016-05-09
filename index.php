@@ -9,7 +9,7 @@
     <?php include("header.html"); ?>
     <?php include("nav.html"); ?>
     <main>
-      
+      <h1>Exercices de bases de PHP</h1>
     </main>
     <?php include("footer.html") ?>
   </body>
