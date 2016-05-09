@@ -1,3 +1,5 @@
 # DL14BasesPHP
 
-DL14 Bases exercises...
+DL14 25 Bases exercises...
+
+Loop, functions & tests
