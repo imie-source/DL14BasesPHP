@@ -16,9 +16,11 @@
   </head>
   <body>
     <?php include("header.html"); ?>
-    <?php include("nav.html"); ?>
+    <?php include("nav.php"); ?>
     <main>
       <?php
+        echo "<h3>Exercice $ex</h3>";
+        getStatement($ex);
         showExercise($ex);
       ?>
     </main>

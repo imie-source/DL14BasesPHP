@@ -7,7 +7,7 @@
   </head>
   <body>
     <?php include("header.html"); ?>
-    <?php include("nav.html"); ?>
+    <?php include("nav.php"); ?>
     <main>
       <h1>Exercices de bases de PHP</h1>
     </main>
